@@ -48,4 +48,12 @@ function removeFirstKitten()
  
    return string;
 }
+function removeLastKitten()
+
+{
+  var string=kittens.slice()
+  string.pop();
+ 
+   return string;
+}
 
