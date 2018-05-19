@@ -34,7 +34,9 @@ function destructivelyRemoveFirstKitten()
 function appendKitten(name)
 
 {
-kittens = [...kittens,name]
-return window.kittens;
+  kittens.push(name);
+  
+var string=kittens.slice()
+return ;
 }
 
