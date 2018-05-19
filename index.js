@@ -40,3 +40,12 @@ function appendKitten(name)
  return string;
 }
 
+function appendKitten(name)
+
+{
+  
+ var string=kittens.slice();
+ string.push(name);
+ return string;
+}
+
