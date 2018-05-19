@@ -7,7 +7,7 @@ function destructivelyAppendKitten(name){
  return kittens
 }
 
-function (prependKitten(name)
+function prependKitten(name)
 {
  var string=kittens.slice();
  
