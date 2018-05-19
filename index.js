@@ -40,12 +40,12 @@ function appendKitten(name)
  return string;
 }
 
-function appendKitten(name)
+function removeFirstKitten()
 
 {
   
- var string=kittens.slice();
- string.push(name);
+ kittens.pop();
+ 
  return string;
 }
 
