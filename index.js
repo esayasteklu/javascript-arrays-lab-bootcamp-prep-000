@@ -43,8 +43,8 @@ function appendKitten(name)
 function removeFirstKitten()
 
 {
-  
- kittens.pop();
+  var string=kittens.slice()
+ string.pop();
  
  return string;
 }
