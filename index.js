@@ -7,11 +7,12 @@ function destructivelyAppendKitten(name){
  return kittens
 }
 
-function destructivelyPrependKitten(name)
+function (prependKitten(name)
 {
+ var string=kittens.slice();
  
- kittens.unshift(name)
- return kittens
+ string.unshift(name)
+ return string;
 }
 
 
