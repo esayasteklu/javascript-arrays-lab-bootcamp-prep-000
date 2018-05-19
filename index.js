@@ -35,8 +35,8 @@ function appendKitten(name)
 
 {
   
- var string=kittens.slice()
+ var string=kittens.slice();
 string.push(name);
-return ;
+return string;
 }
 
