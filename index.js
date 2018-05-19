@@ -44,8 +44,8 @@ function removeFirstKitten()
 
 {
   var string=kittens.slice()
- string.pop();
+  string.pop();
  
- return string;
+   return string;
 }
 
